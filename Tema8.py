@@ -6,7 +6,7 @@ chrome = webdriver.Chrome()
 
 # BY ID:
 
-'''chrome.get("https://formy-project.herokuapp.com/form")
+chrome.get("https://formy-project.herokuapp.com/form")
 first_name_field = chrome.find_element(By.ID, "first-name")
 first_name_field.send_keys("Ion")
 time.sleep(4)
@@ -102,11 +102,11 @@ time.sleep(3)
 # Class
 last_name_field = chrome.find_elements(By.CSS_SELECTOR, '.form-control')[1]
 last_name_field.send_keys('Ion')
-time.sleep(3)'''
+time.sleep(3)
 
 #Xpath
 
-'''chrome.get('https://www.saucedemo.com/')
+chrome.get('https://www.saucedemo.com/')
 username_field = chrome.find_element(By.XPATH, "//input[@id = 'user-name']").send_keys('standard_user')
 time.sleep(3)
 
@@ -114,4 +114,4 @@ password_field = chrome.find_element(By.XPATH, "//input[@type = 'password']").se
 time.sleep(3)
 
 login_field = chrome.find_element(By.XPATH, "//input[@value = 'Login']").click()
-time.sleep(3)'''
+time.sleep(3)
